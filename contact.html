@@ -6,47 +6,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="contact.css">
     <title>Contact Page</title>
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous"
+    ></script>
 </head>
 <body>
-    <header>
-        <a href="index.html" class="logo">Aaron</a>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html" class="active">Contact</a>
-        </nav>
-    </header>
     <div class="container">
-        <div class="form">
-            <div class="contact-info"></div>
-
         
-            <div class="contact-form"></div>
-            
-            <form action="contact.html">
-                <h3 class="title">Contact Us</h3>
-                <div class="input-container">
-                    <input type="text" name="name" class="input">
-                    <label for="">Username</label>
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title"> Let's get in touch</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ab dolorem dicta, eius exercitationem nam impedit dolore nihil illo asperiores hic alias odio esse quae repellat? Exercitationem veritatis aut molestias.
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="mail icon.png" class="icon" alt="">
+                        <p> <a href="mailto:aaronrbuesing@gmail.com">aaronrbuesing@gmail.com</a> </p>
+                    </div>
+                    <div class="information">
+                        <img src="phone icon.png" class="icon" alt="">
+                        <p> <a href="tel:+13615419372">(361)-541-9372</a> </p>
+                    </div>
                 </div>
-                <div class="input-container">
-                    <input type="email" name="email" class="input">
-                    <label for="">Email</label>
+                <div class="social-media">
+                    <p> Connect With Us :</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
-                <div class="input-container">
-                    <input type="tel" name="phone" class="input">
-                    <label for="">Phone</label>
-                </div>
-                <div class="input-container textarea">
-                    <textarea type="message" class="input"></textarea>
-                    <label for="">Message</label>
-                </div>
-                <input type="submit" value="Send" class="btn">
-            </form>
+            </div>
 
 
+            <div class="contact-form">
+                <form action="contact.html">
+                    <h3 class="title">Contact Us!</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input">
+                        <label for="name">Name</label>
+                        <span>Name</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input">
+                        <label for="email">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input">
+                        <label for="phone">Phone</label>
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea ">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="message">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
         </div>
     </div>
+    <script src="contact.js"></script>
 </body>
 </html>
