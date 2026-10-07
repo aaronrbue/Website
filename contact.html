@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="contact.css">
-    <title>Portfolio</title>
+    <title>Contact Page</title>
 </head>
 <body>
     <header>
@@ -17,18 +17,36 @@
             <a href="contact.html" class="active">Contact</a>
         </nav>
     </header>
-    <section class="home">
-        </div>
-        <div class="home-left">
-            <h1>Contact Page</h1>
-            <h3>This is my contact page! You can contact me either through my social links below, or my email, or my number.</h3>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/aaronbues/"><i class="fa-brands fa-instagram"></i>Instagram Link</a>
-                <a href="https://www.linkedin.com/in/aaron-buesing-005b4b293/?isSelfProfile=true"><i class="fa-brands fa-linkedin-in"></i>Linked-In Link</a>
-                <a href="https://github.com/aaronrbue"><i class="fa-brands fa-github"></i>    Github link</a>
-            </div>
+    <div class="container">
+        <div class="form">
+            <div class="contact-info"></div>
+
+        
+            <div class="contact-form"></div>
             
+            <form action="contact.html">
+                <h3 class="title">Contact Us</h3>
+                <div class="input-container">
+                    <input type="text" name="name" class="input">
+                    <label for="">Username</label>
+                </div>
+                <div class="input-container">
+                    <input type="email" name="email" class="input">
+                    <label for="">Email</label>
+                </div>
+                <div class="input-container">
+                    <input type="tel" name="phone" class="input">
+                    <label for="">Phone</label>
+                </div>
+                <div class="input-container textarea">
+                    <textarea type="message" class="input"></textarea>
+                    <label for="">Message</label>
+                </div>
+                <input type="submit" value="Send" class="btn">
+            </form>
+
+
         </div>
-    </section>
+    </div>
 </body>
 </html>
